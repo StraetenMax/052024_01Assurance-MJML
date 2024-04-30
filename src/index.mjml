@@ -1,0 +1,11 @@
+<mjml>
+    <mj-head>
+        
+    </mj-head>
+    <mj-body>
+<!--Logo et réseau sociaux-->
+
+<!--footer-->
+        <mj-include path="layout/footer.mjml" />
+    </mj-body>
+</mjml>
