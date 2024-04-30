@@ -12,8 +12,8 @@
     <!--attributes-->
         <mj-attributes>
             <mj-all font-family="Roboto, Arial, Helvetica, sans-serif" />
-            <mj-class name="D_Title" font-size="36px" font-weight="300" line-height="40px" color="#684092"/>
-            <mj-class name="D_SousTitle" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" color="#684092"/>
+            <mj-class name="D_Title" font-size="38px" font-weight="300" line-height="42px" color="#684092"/>
+            <mj-class name="D_SousTitle" font-size="16px" font-weight="900" line-height="20px" text-transform="uppercase" color="#684092"/>
             <mj-class name="D_Text" font-size="16px" font-weight="400" line-height="20px" color="#2D3748"/>
             <mj-class name="D_Footer" font-size="12px" font-weight="400" line-height="16px" color="#2D3748"/> 
             <mj-class name="D_RL" padding-top="0" padding-bottom="0"/>
@@ -35,53 +35,59 @@
             }
         }
         </mj-style>
-    </mj-head>
-    <mj-body>
+</mj-head>
+<mj-body background-color="#edf2f7">
 <!--Logo et réseau sociaux-->
 <!--Corps de l'annonce-->
-<mj-section>
-    <mj-column width="400px">
-        <mj-text>
-            Nouveau
-        </mj-text>
-        <mj-text>
-            Alternance Attaché(e) commercial(e) TPE/PME
-        </mj-text>
-        <mj-text mj-class="D_Text">
-            Entreprise : Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.
-        </mj-text>
-        <mj-text mj-class="D_Text">
-            lieu: Villeneuve d'Ascq
-        </mj-text>
-        <mj-text mj-class="D_Text">
-            durée : 12 à 24 mois
-        </mj-text>
-        <mj-text>
-            Mission :
-        </mj-text>
-        <mj-text mj-class="D_Text D_RL">
-            - Je mets en place des contrats Santé et Prévoyance sur le segment TPE/PME
-        </mj-text>
-        <mj-text mj-class="D_Text D_RL"> 
-            - J'effectue la traçabilité de l'activité commerciale (contacts, devis, statut...) et son suivi à travers les outils
-        </mj-text>
-        <mj-text mj-class="D_Text D_RL">
-            - J'accompagne des entreprises dans la mise en place des régimes de protection sociale : Conseil et vente à distance des produits dans le respect de la politique commerciale du groupe
-        </mj-text>
-        <mj-text mj-class="D_Text D_RL">
-            - Je réalise les actions de prospection et de multi équipement.
-        </mj-text>
-    </mj-column>
-</mj-section>
-<mj-section>
-    <mj-column width="600px">
-        <mj-button>
-            Postuler maintenant
-        </mj-button>
-        
-    </mj-column>
-</mj-section>
-
+        <mj-section background-color="#ffffff">
+            <mj-column width="480px">
+                <mj-text mj-class="D_SousTitle">
+                    Nouveau Poste à pourvoir
+                </mj-text>
+                <mj-text mj-class="D_Title" align="center">
+                    Alternance Attaché(e) commercial(e) TPE/PME
+                </mj-text>
+            </mj-column>
+        </mj-section>    
+        <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
+            <mj-column width="359px" padding="8px">
+                <mj-text mj-class="D_Text" padding="0">
+                <strong style="text-transform:uppercase;color:#684092;">Entreprise :</strong> Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.
+                </mj-text>
+                <mj-text mj-class="D_Text D_RBL">
+                    <strong style="text-transform:uppercase;color:#684092;">Lieu :</strong> Villeneuve d'Ascq
+                </mj-text>
+                <mj-text mj-class="D_Text D_RBL">
+                    <strong style="text-transform:uppercase;color:#684092">Durée :</strong> 12 à 24 mois
+                </mj-text>
+                <mj-text mj-class="D_Text D_RBL">
+                    <strong style="text-transform:uppercase;color:#684092;">Mission :</strong>
+                </mj-text>
+                <mj-text mj-class="D_Text" padding="0">
+                    - Je mets en place des contrats Santé et Prévoyance sur le segment TPE/PME
+                </mj-text>
+                <mj-text mj-class="D_Text" padding="0"> 
+                    - J'effectue la traçabilité de l'activité commerciale (contacts, devis, statut...) et son suivi à travers les outils
+                </mj-text>
+                <mj-text mj-class="D_Text" padding="0">
+                    - J'accompagne des entreprises dans la mise en place des régimes de protection sociale : Conseil et vente à distance des produits dans le respect de la politique commerciale du groupe
+                </mj-text>
+                <mj-text mj-class="D_Text" padding="0">
+                    - Je réalise les actions de prospection et de multi équipement.
+                </mj-text>
+            </mj-column>
+            <mj-column width="159px" padding="8px">
+                <mj-image padding="0" width="159px" src="src/img/JeuneFemme.jpg" alt="" />
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#ffffff">
+            <mj-column width="600px">
+                <mj-button>
+                    Postuler maintenant
+                </mj-button>
+                
+            </mj-column>
+        </mj-section>
 <!--footer-->
         <mj-include path="layout/address.mjml" />
         <mj-include path="layout/regl.mjml" />
