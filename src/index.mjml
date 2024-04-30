@@ -1,11 +1,89 @@
 <mjml>
     <mj-head>
-        
+    <!--title-->
+         <mj-title>Annonce Alternance Ecosup Assurance</mj-title>
+    <!--font-->
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" />
+    <!--bloquer Dark mode-->
+        <mj-raw>
+            <meta name="color-scheme" content="light"></meta>
+            <meta name="supported-color-schemes" content="light"></meta>
+        </mj-raw>
+    <!--attributes-->
+        <mj-attributes>
+            <mj-all font-family="Roboto, Arial, Helvetica, sans-serif" />
+            <mj-class name="D_Title" font-size="36px" font-weight="300" line-height="40px" color="#684092"/>
+            <mj-class name="D_SousTitle" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" color="#684092"/>
+            <mj-class name="D_Text" font-size="16px" font-weight="400" line-height="20px" color="#2D3748"/>
+            <mj-class name="D_Footer" font-size="12px" font-weight="400" line-height="16px" color="#2D3748"/> 
+            <mj-class name="D_RL" padding-top="0" padding-bottom="0"/>
+            <mj-class name="D_RBL" padding-left="0" padding-right="0" padding-bottom="0"/>
+            <mj-button font-size="16px" font-weight="500" line-height="20px" background-color="#ba4995"></mj-button>  
+        </mj-attributes>
+    <!--breakpoint-->
+        <mj-breakpoint width="550px" />
+    <!--style-->
+        <mj-style>
+         .hover:hover td, .hover:hover a{ 
+                background-color:#684092 !important;
+            }
+        @media only screen and (max-width:550px){
+            .M_Padding {
+                padding-left:17px !important;
+                padding-right:17px !important;
+                padding-top:10px !important;
+            }
+        }
+        </mj-style>
     </mj-head>
     <mj-body>
 <!--Logo et réseau sociaux-->
+<!--Corps de l'annonce-->
+<mj-section>
+    <mj-column width="400px">
+        <mj-text>
+            Nouveau
+        </mj-text>
+        <mj-text>
+            Alternance Attaché(e) commercial(e) TPE/PME
+        </mj-text>
+        <mj-text mj-class="D_Text">
+            Entreprise : Groupe international et indépendant, qui crée et gère des solutions innovantes en assurances de personnes pour les particuliers, les professionnels et les entreprises.
+        </mj-text>
+        <mj-text mj-class="D_Text">
+            lieu: Villeneuve d'Ascq
+        </mj-text>
+        <mj-text mj-class="D_Text">
+            durée : 12 à 24 mois
+        </mj-text>
+        <mj-text>
+            Mission :
+        </mj-text>
+        <mj-text mj-class="D_Text D_RL">
+            - Je mets en place des contrats Santé et Prévoyance sur le segment TPE/PME
+        </mj-text>
+        <mj-text mj-class="D_Text D_RL"> 
+            - J'effectue la traçabilité de l'activité commerciale (contacts, devis, statut...) et son suivi à travers les outils
+        </mj-text>
+        <mj-text mj-class="D_Text D_RL">
+            - J'accompagne des entreprises dans la mise en place des régimes de protection sociale : Conseil et vente à distance des produits dans le respect de la politique commerciale du groupe
+        </mj-text>
+        <mj-text mj-class="D_Text D_RL">
+            - Je réalise les actions de prospection et de multi équipement.
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column width="600px">
+        <mj-button>
+            Postuler maintenant
+        </mj-button>
+        
+    </mj-column>
+</mj-section>
 
 <!--footer-->
-        <mj-include path="layout/footer.mjml" />
+        <mj-include path="layout/address.mjml" />
+        <mj-include path="layout/regl.mjml" />
     </mj-body>
 </mjml>
