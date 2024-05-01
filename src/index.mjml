@@ -46,7 +46,7 @@
 <!--Corps de l'annonce-->
         <mj-section background-color="#ffffff" padding="0">
             <mj-column width="480px">
-                <mj-text mj-class="D_Text">
+                <mj-text font-size="16px" font-weight="300" line-height="20px" color="#2D3748">
                     {{contact.PRENOM}} cette annonce correspond à votre recherche d'une alternance dans les métiers de l'assurance et de la banque.
                 </mj-text>
                 <mj-text mj-class="D_SousTitle">
