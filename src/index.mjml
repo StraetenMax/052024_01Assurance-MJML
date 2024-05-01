@@ -46,6 +46,9 @@
 <!--Corps de l'annonce-->
         <mj-section background-color="#ffffff" padding="0">
             <mj-column width="480px">
+                <mj-text mj-class="D_Text">
+                    cette annonce correspond à votre recherche d'une alternance dans les métiers de l'assurance et de la banque.
+                </mj-text>
                 <mj-text mj-class="D_SousTitle">
                     <span style="color:#D30000;">Nouveau</span> Poste à pourvoir
                 </mj-text>
@@ -82,7 +85,7 @@
                 </mj-text>
             </mj-column>
             <mj-column width="159px" padding="8px">
-                <mj-image padding="0" width="159px" src="src/img/JeuneFemme.jpg" alt="" />
+                <mj-image padding="0" width="159px" src="src/img/JeuneFemme.jpg" alt="Étudiante en BTS alternance" />
             </mj-column>
         </mj-section>
         <mj-section background-color="#ffffff">
