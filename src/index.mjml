@@ -90,7 +90,7 @@
         </mj-section>
         <mj-section background-color="#ffffff">
             <mj-column width="600px">
-                <mj-button css-class="hover">
+                <mj-button css-class="hover" href="https://ecosup-assurance.fr/attache-commercial-tpe-pme/">
                     Postuler maintenant
                 </mj-button>
                 
