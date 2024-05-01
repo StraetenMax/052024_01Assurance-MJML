@@ -40,7 +40,7 @@
 <!--Logo et réseau sociaux-->
         <mj-section background-color="#ffffff" padding="0">
             <mj-column width="250px">
-                <mj-image src="src/img/EcosupAssurance.png" alt="logo Ecosup assurance" />
+                <mj-image src="https://img.mailinblue.com/3403292/images/content_library/original/6631e75e524b5b6d34b88b1b.png" alt="logo Ecosup assurance" />
             </mj-column>
         </mj-section>
 <!--Corps de l'annonce-->
@@ -85,7 +85,7 @@
                 </mj-text>
             </mj-column>
             <mj-column width="159px" padding="8px">
-                <mj-image padding="0" width="159px" src="src/img/JeuneFemme.jpg" alt="Étudiante en BTS alternance" />
+                <mj-image padding="0" width="159px" src="https://img.mailinblue.com/3403292/images/content_library/original/6631e765524b5b6d34b88b1d.jpg" alt="Étudiante en BTS alternance" />
             </mj-column>
         </mj-section>
         <mj-section background-color="#ffffff">
