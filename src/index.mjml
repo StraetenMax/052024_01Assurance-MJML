@@ -38,11 +38,16 @@
 </mj-head>
 <mj-body background-color="#edf2f7">
 <!--Logo et réseau sociaux-->
+        <mj-section background-color="#ffffff" padding="0">
+            <mj-column width="250px">
+                <mj-image src="src/img/EcosupAssurance.png" alt="logo Ecosup assurance" />
+            </mj-column>
+        </mj-section>
 <!--Corps de l'annonce-->
-        <mj-section background-color="#ffffff">
+        <mj-section background-color="#ffffff" padding="0">
             <mj-column width="480px">
                 <mj-text mj-class="D_SousTitle">
-                    Nouveau Poste à pourvoir
+                    <span style="color:#D30000;">Nouveau</span> Poste à pourvoir
                 </mj-text>
                 <mj-text mj-class="D_Title" align="center">
                     Alternance Attaché(e) commercial(e) TPE/PME
@@ -64,16 +69,16 @@
                     <strong style="text-transform:uppercase;color:#684092;">Mission :</strong>
                 </mj-text>
                 <mj-text mj-class="D_Text" padding="0">
-                    - Je mets en place des contrats Santé et Prévoyance sur le segment TPE/PME.
+                    - Je mets en place des <strong>contrats Santé et Prévoyance</strong> sur le segment TPE/PME.
                 </mj-text>
                 <mj-text mj-class="D_Text" padding="0"> 
-                    - J'effectue la traçabilité de l'activité commerciale (contacts, devis, statut...) et son suivi à travers les outils.
+                    - J'effectue la <strong>traçabilité de l'activité commerciale</strong> (contacts, devis, statut...) et son suivi à travers les outils.
                 </mj-text>
                 <mj-text mj-class="D_Text" padding="0">
-                    - J'accompagne des entreprises dans la mise en place des régimes de protection sociale : Conseil et vente à distance des produits dans le respect de la politique commerciale du groupe.
+                    - J'accompagne des entreprises dans la <strong>mise en place des régimes de protection sociale</strong> : Conseil et vente à distance des produits dans le respect de la politique commerciale du groupe.
                 </mj-text>
                 <mj-text mj-class="D_Text" padding="0">
-                    - Je réalise les actions de prospection et de multi équipement.
+                    - Je réalise les <strong>actions de prospection</strong> et de multi équipement.
                 </mj-text>
             </mj-column>
             <mj-column width="159px" padding="8px">
@@ -82,7 +87,7 @@
         </mj-section>
         <mj-section background-color="#ffffff">
             <mj-column width="600px">
-                <mj-button>
+                <mj-button css-class="hover">
                     Postuler maintenant
                 </mj-button>
                 
